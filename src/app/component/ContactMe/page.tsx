@@ -1,24 +1,11 @@
 "use client"
 import { motion } from 'framer-motion'
 import React from 'react'
-// import { useForm,SubmitHandler } from 'react-hook-form'
 import { BsFillEnvelopeFill, BsFillTelephoneFill } from 'react-icons/bs'
 import { ImLocation2 } from 'react-icons/im'
 type Props = {}
-// type Inputs = {
-//   name: string;
-//   email: string;
-//   subject:string;
-//   message:string;
-// };
 
 export default function ContactMe({ }: Props) {
-  // const { register,  handleSubmit} = useForm<Inputs>();
-  // const onSubmit: SubmitHandler<Inputs> = (formData) => {
-  //   window.location.href = `mailto:afshanyasmeen16@gmail?subject=${formData.subject}&body=Hi, My name is ${formData.name}. ${formData.message} (${formData.email})`;
-  // };
-  
-  // console.log('dataSend');
   return (
     <div>
       <div className='h-screen pt-20 flex flex-col relative text-lft md:text-left md:flex-row mx-w-full px-10
@@ -88,8 +75,7 @@ export default function ContactMe({ }: Props) {
   <div className='text-center'>
     <button
       type="submit"
-      className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 sm:px-6 lg:px-8 focus:outline-none hover:bg-pink-600 rounded text-lg"
-    >
+      className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 sm:px-6 lg:px-8 focus:outline-none hover:bg-pink-600 rounded text-lg"   >
       Submit
     </button>
   </div>

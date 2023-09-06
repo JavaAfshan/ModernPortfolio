@@ -9,9 +9,7 @@ import Link from "next/link";
 import FetchAbout from "./component/About/fetchabout";
 export default function Home() {
   return (
-    <div 
-    // className="h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-pink-400/30 scrollbar-thumb-blue-900 "
-    >
+    <div>
       <Head>
         <title>
           Afshan's Portfolio
