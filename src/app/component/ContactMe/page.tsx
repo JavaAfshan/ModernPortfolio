@@ -49,37 +49,37 @@ export default function ContactMe({ }: Props) {
           </div>
 
           <form className='flex flex-col space-y-2 mx-auto  '>
-  <div className='flex flex-col space-y-2'>
-    <div className='flex flex-col space-y-2 sm:flex-row sm:space-x-2'>
-      <input
-        className="contactInput sm:w-1/2"
-        type="text"
-        placeholder='Name'
-      />
-      <input
-        className="contactInput sm:w-1/2"
-        type="email"
-        placeholder='Email'
-      />
-    </div>
-    <input
-      className="contactInput"
-      type="text"
-      placeholder='Subject'
-    />
-    <textarea
-      className='contactInput'
-      placeholder='Message'
-    />
-  </div>
-  <div className='text-center'>
-    <button
-      type="submit"
-      className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 sm:px-6 lg:px-8 focus:outline-none hover:bg-pink-600 rounded text-lg"   >
-      Submit
-    </button>
-  </div>
-</form>
+            <div className='flex flex-col space-y-2'>
+              <div className='flex flex-col space-y-2 sm:flex-row sm:space-x-2'>
+                <input
+                  className="contactInput sm:w-1/2"
+                  type="text"
+                  placeholder='Name'
+                />
+                <input
+                  className="contactInput sm:w-1/2"
+                  type="email"
+                  placeholder='Email'
+                />
+              </div>
+              <input
+                className="contactInput"
+                type="text"
+                placeholder='Subject'
+              />
+              <textarea
+                className='contactInput'
+                placeholder='Message'
+              />
+            </div>
+            <div className='text-center'>
+              <button
+                type="submit"
+                className="inline-flex text-white bg-blue-900 border-0 py-2 px-4 sm:px-6 lg:px-8 focus:outline-none hover:bg-pink-600 rounded text-lg"   >
+                Submit
+              </button>
+            </div>
+          </form>
 
         </div>
       </div>

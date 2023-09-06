@@ -2,7 +2,6 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import FetchProject from './fetchProject'
-import Projectd from './project'
 
 type Props = {}
 

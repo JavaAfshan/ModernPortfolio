@@ -1,7 +1,6 @@
 import React from 'react'
 import FetchLeftHero from './fetchLeftHero copy'
 import FetchRightHero from './fetchRightHero'
-import HeroLeft from './HeroLeft'
 
 type Props = {}
 
