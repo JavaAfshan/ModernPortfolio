@@ -1,9 +1,9 @@
 // import React from 'react'
 // import { client } from '../../../../sanity/lib/client';
-// import HeroLeft from './HeroLeft';
+// import HeroRight from './HeroRight';
 
 
-// export default async function FetchLeftHero() {
+// export default async function FetchRightHero() {
 //     const pageInformation = await client.fetch(`*[_type == 'pageinfo'] {
 //         name,role,heroImage,backgroundInformation,profilePic,
 //          phoneNumber,email,address
@@ -11,27 +11,24 @@
 //   return (
 //     <div>
 //            {
-                    
 //                     pageInformation?.slice(0, 3).map((info:any)=>(
-//                                    <HeroLeft  
-//                                    key={info._id} 
-//                                    myname={info.name}
-//                                    role={info.role}
-//                                    heroImage={info.heroImage.asset.url}
-//                                    />
-//                          ))
+//                         <HeroRight  
+//                         key={info._id} 
+//                         myname={info.name}
+//                         backgroundInformation={info.backgroundInformation}
+//                         />
+//               ))
                          
 //                     }
 //     </div>
 //   )
 // }
-
 "use client"
 import React, { useState, useEffect } from 'react';
-import { client } from '../../../../sanity/lib/client';
-import HeroLeft from './HeroLeft';
+import { client } from '../../../sanity/lib/client';
+import HeroRight from './HeroRight';
 
-export default function FetchLeftHero() {
+export default function FetchRightHero() {
   const [pageInformation, setPageInformation] = useState([]);
 
   useEffect(() => {
@@ -53,16 +50,14 @@ export default function FetchLeftHero() {
   return (
     <div>
       {
-     pageInformation?.slice(0, 3).map((info:any)=>(
-                                         <HeroLeft  
-                                         key={info._id} 
-                                         myname={info.name}
-                                         role={info.role}
-                                         heroImage={info.heroImage.asset.url}
-                                         />
-                               ))
+          pageInformation?.slice(0, 3).map((info:any)=>(
+                                    <HeroRight  
+                                    key={info._id} 
+                                    myname={info.name}
+                                    backgroundInformation={info.backgroundInformation}
+                                    />
+                          ))
       }
     </div>
   );
 }
-

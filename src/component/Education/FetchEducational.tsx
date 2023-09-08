@@ -32,9 +32,9 @@
 // }
 
 
-
+"use client"
 import React, { useState, useEffect } from 'react';
-import { client } from '../../../../sanity/lib/client';
+import { client } from '../../../sanity/lib/client';
 import EducationCard from './EducationCard';
 
 export default function FetchEducational() {

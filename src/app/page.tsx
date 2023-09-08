@@ -1,12 +1,12 @@
 import Head from "next/head";
-import WorkExperience from "./component/Education/workExperience";
-import Header from "./component/Header/page";
-import Skills from "./component/Skills/page"
-import Hero from "./component/Hero/Hero"
-import Project from "./component/Project/page";
-import ContactMe from "./component/ContactMe/page";
+import WorkExperience from "../component/Education/workExperience";
+import Header from "../component/Header/page";
+import Skills from "../component/Skills/page"
+import Hero from "../component/Hero/Hero"
+import Project from "../component/Project/page";
+import ContactMe from "../component/ContactMe/page";
 import Link from "next/link"; 
-import FetchAbout from "./component/About/fetchabout";
+import FetchAbout from "../component/About/fetchabout";
 export default function Home() {
   return (
     <div>
