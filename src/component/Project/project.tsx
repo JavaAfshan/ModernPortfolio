@@ -39,7 +39,7 @@ export default function Projectd({key,title,summary,src,linkToBuild}:{
     </h4>
     <p className='text-base '>
       {summary}
-      <a href={linkToBuild}>Let's Go</a>
+      <a href={linkToBuild}>Read More</a>
        </p>
     </motion.div>
 </div>

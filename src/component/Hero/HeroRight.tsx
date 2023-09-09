@@ -52,7 +52,7 @@ export default function HeroRight({ key, myname, backgroundInformation }:
                         {myname}  </h1>)
                        }
                         <h1 className="text-3xl font-bold tracking-tight text-blue-900 ">
-                            Hi I'm  <span className='text-pink-400 tracking-[2px]'>{text}</span> <Cursor cursorColor='pink' />
+                            Hi I am  <span className='text-pink-400 tracking-[2px]'>{text}</span> <Cursor cursorColor='pink' />
                         </h1>
                        {backgroundInformation&&( <p className="mt-6 text-lg leading-8 text-blue-900 ">
                            {backgroundInformation}  </p>)}

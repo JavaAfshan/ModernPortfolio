@@ -12,7 +12,7 @@ export default function Home() {
     <div>
       <Head>
         <title>
-          Afshan's Portfolio
+          Afshan Portfolio
         </title>
       </Head>
 
