@@ -29,7 +29,7 @@ export default function ContactMe({ }: Props) {
         </motion.h3>
         <div className=' pt-2 flex flex-col space-y-2'>
           <h4 className='text-xl md:text-2xl font-semibold text-center'>I have got just what you need.{" "}
-            <span className='decoration-pink-600 animate-pulse underline'>Let's Talk</span></h4>
+            <span className='decoration-pink-600 animate-pulse underline'>Read More</span></h4>
 
           <div className='text-center'>
             <div className='flex items-center space-x-5 justify-center'>
